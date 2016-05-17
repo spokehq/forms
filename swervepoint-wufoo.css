@@ -4,15 +4,17 @@ form.wuffo, form.wufoo label, form.wufoo label p {
 }
 form.wufoo li {padding-left:0;padding-right:0;}
 form.wufoo li.focused {background-color:transparent;}
-form.wufoo label {font-size:13px;line-height:24px;color:#4d4d4d;margin:0 0;}
+form.wufoo label, form.wufoo li div, form.wufoo li div label, .form.wufoo li span label {font-size:13px;line-height:24px;color:#4d4d4d;margin:0 0;}
 
-form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[type="url"], form.wufoo input[type="tel"], form.wufoo input[type="search"], form.wufoo input[type="datetime-local"], form.wufoo input[type="datetime"], form.wufoo input[type="time"], form.wufoo input[type="week"], form.wufoo input[type="month"], form.wufoo input[type="range"], form.wufoo input[type="color"], form.wufoo input[type="date"], form.wufoo input[type="number"], form.wufoo textarea {
+form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[type="url"], form.wufoo input[type="tel"], form.wufoo input[type="search"], form.wufoo input[type="datetime-local"], form.wufoo input[type="datetime"], form.wufoo input[type="time"], form.wufoo input[type="week"], form.wufoo input[type="month"], form.wufoo input[type="range"], form.wufoo input[type="color"], form.wufoo input[type="date"], form.wufoo input[type="number"], form.wufoo textarea, form.wufoo input.text {
 	border:2px solid #bbbbbb;
 	padding:9px 15px;border-radius: 4px;background-clip: padding-box;
 	font-size:14px;line-height:1.45;
 	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
 }
-form.wufoo .focused input[type="text"], form.wufoo .focused input[type="email"], form.wufoo .focused input[type="url"], form.wufoo .focused input[type="tel"], form.wufoo .focused input[type="search"], form.wufoo .focused input[type="datetime-local"], form.wufoo .focused input[type="datetime"], form.wufoo .focused input[type="time"], form.wufoo .focused input[type="week"], form.wufoo .focused input[type="month"], form.wufoo .focused input[type="range"], form.wufoo .focused input[type="color"], form.wufoo .focused input[type="date"], form.wufoo .focused input[type="number"], form.wufoo .focused textarea {border-color:#4d4d4d;box-shadow:none;}
+form.wufoo .focused input[type="text"], form.wufoo .focused input[type="email"], form.wufoo .focused input[type="url"], form.wufoo .focused input[type="tel"], form.wufoo .focused input[type="search"], form.wufoo .focused input[type="datetime-local"], form.wufoo .focused input[type="datetime"], form.wufoo .focused input[type="time"], form.wufoo .focused input[type="week"], form.wufoo .focused input[type="month"], form.wufoo .focused input[type="range"], form.wufoo .focused input[type="color"], form.wufoo .focused input[type="date"], form.wufoo .focused input[type="number"], form.wufoo .focused textarea, form.wufoo input.text {border-color:#4d4d4d;box-shadow:none;}
+
+form.wufoo input[type="radio"], form.wufoo label.choice {display:inline-block;}
 
 form.wufoo li.notranslate {margin:0 0 18px;}
 form.wufoo input.submit {
