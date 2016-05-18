@@ -20,7 +20,7 @@ form.wufoo input[type="radio"], form.wufoo label.choice, form.wufoo input.checkb
 
 form.wufoo li.notranslate {margin:0 0 18px;}
 form.wufoo select {
-	padding: 10px 42px 10px 10px;
+/* 	padding: 10px 42px 10px 10px; */
 	background: #ffffff;
 	display: inline-block;
 	-webkit-appearance: none;
