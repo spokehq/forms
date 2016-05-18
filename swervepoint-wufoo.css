@@ -1,4 +1,5 @@
 form.wufoo {margin:20px 0;padding:0;font-family:Arial, Helvetica, sans-serif;text-align:left;}
+	form.wufoo .info, form.wufoo li.first h1, form.wufoo li.first h2, form.wufoo li.first h3, form.wufoo .section div, form.wufoo .section h1, form.wufoo .section h2, form.wufoo .section h3, form.wufoo .section h4, form.wufoo .section h5 {padding-left:0;padding-right:0;}
 form.wuffo, form.wufoo label, form.wufoo label p {
 	font:normal 14px/100% Arial, Helvetica, sans-serif;color:#4d4d4d;
 }
@@ -6,17 +7,81 @@ form.wufoo li {padding-left:0;padding-right:0;}
 form.wufoo li.focused {background-color:transparent;}
 form.wufoo label, form.wufoo li div, form.wufoo li div label, .form.wufoo li span label {font-size:13px;line-height:24px;color:#4d4d4d;margin:0 0;}
 
-form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[type="url"], form.wufoo input[type="tel"], form.wufoo input[type="search"], form.wufoo input[type="datetime-local"], form.wufoo input[type="datetime"], form.wufoo input[type="time"], form.wufoo input[type="week"], form.wufoo input[type="month"], form.wufoo input[type="range"], form.wufoo input[type="color"], form.wufoo input[type="date"], form.wufoo input[type="number"], form.wufoo textarea, form.wufoo input.text {
-	border:2px solid #bbbbbb;
+form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[type="url"], form.wufoo input[type="tel"], form.wufoo input[type="search"], form.wufoo input[type="datetime-local"], form.wufoo input[type="datetime"], form.wufoo input[type="time"], form.wufoo input[type="week"], form.wufoo input[type="month"], form.wufoo input[type="range"], form.wufoo input[type="color"], form.wufoo input[type="date"], form.wufoo input[type="number"], form.wufoo textarea, form.wufoo input.text, form.wufoo select {
+	border:2px solid #bbbbbb;background:#fff;
 	padding:9px 15px;border-radius: 4px;background-clip: padding-box;
 	font-size:14px;line-height:1.45;
 	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
 }
-form.wufoo .focused input[type="text"], form.wufoo .focused input[type="email"], form.wufoo .focused input[type="url"], form.wufoo .focused input[type="tel"], form.wufoo .focused input[type="search"], form.wufoo .focused input[type="datetime-local"], form.wufoo .focused input[type="datetime"], form.wufoo .focused input[type="time"], form.wufoo .focused input[type="week"], form.wufoo .focused input[type="month"], form.wufoo .focused input[type="range"], form.wufoo .focused input[type="color"], form.wufoo .focused input[type="date"], form.wufoo .focused input[type="number"], form.wufoo .focused textarea, form.wufoo input.text {border-color:#4d4d4d;box-shadow:none;}
+form.wufoo .focused input[type="text"], form.wufoo .focused input[type="email"], form.wufoo .focused input[type="url"], form.wufoo .focused input[type="tel"], form.wufoo .focused input[type="search"], form.wufoo .focused input[type="datetime-local"], form.wufoo .focused input[type="datetime"], form.wufoo .focused input[type="time"], form.wufoo .focused input[type="week"], form.wufoo .focused input[type="month"], form.wufoo .focused input[type="range"], form.wufoo .focused input[type="color"], form.wufoo .focused input[type="date"], form.wufoo .focused input[type="number"], form.wufoo .focused textarea, form.wufoo input.text {border-color:#4d4d4d;box-shadow:none;} 
 
-form.wufoo input[type="radio"], form.wufoo label.choice {display:inline-block;}
+form.wufoo input[type="radio"], form.wufoo label.choice, form.wufoo input.checkbox {display:inline-block;}
 
 form.wufoo li.notranslate {margin:0 0 18px;}
+form.wufoo select {
+	padding: 10px 42px 10px 10px;
+	background: #ffffff;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	outline: none;
+}
+/* label.dropdown select:-moz-focusring { */
+form.wufoo .select:-moz-focusring  {
+	color: transparent;
+	text-shadow: 0 0 0 #444;
+}
+form.wufoo .select::-ms-expand {
+	display: none;
+}
+form.wufoo .select:before {
+	content: '';
+	right: 5px;
+	top: -7px;
+	width: 30px;
+	height: 33px;
+	background: #ffffff;
+	position: absolute;
+	pointer-events: none;
+	display: block;
+}
+form.wufoo .select { position: relative; }
+form.wufoo .select:after {
+	content: '>';
+	font: 16px Consolas, monospace;
+	color: #444;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 2px;
+	top: -3px;
+	border-bottom: 1px solid #aaa;
+	position: absolute;
+	pointer-events: none;
+	width: 35px;
+	padding: 0 0 5px 0;
+	text-indent: 14px;
+}
+@media screen\0 {
+	form.wufoo .select:after {
+		width: 38px;
+		text-indent: 15px;
+        right: 0;
+	}
+}
+@media screen and (min--moz-device-pixel-ratio:0) {
+	form.wufoo .select { padding-right: 40px; }
+	form.wufoo .select:before { right: 6px; }
+	form.wufoo .select:after {
+		text-indent: 14px;
+		right: 6px;
+		top: -5px;
+		width: 36px;
+	}
+}
 form.wufoo input.submit {
 	border-radius: 4px;background-clip: padding-box;
 	background-color:#fff;color:#bbbbbb;border:2px solid #bbbbbb;text-align:center;
