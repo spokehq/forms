@@ -13,6 +13,7 @@ form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[
 	font-size:14px;line-height:1.45;
 	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
 }
+form.wufoo input.medium, form.wufoo select.medium {width:100%;}
 /* form.wufoo .focused input[type="text"], form.wufoo .focused input[type="email"], form.wufoo .focused input[type="url"], form.wufoo .focused input[type="tel"], form.wufoo .focused input[type="search"], form.wufoo .focused input[type="datetime-local"], form.wufoo .focused input[type="datetime"], form.wufoo .focused input[type="time"], form.wufoo .focused input[type="week"], form.wufoo .focused input[type="month"], form.wufoo .focused input[type="range"], form.wufoo .focused input[type="color"], form.wufoo .focused input[type="date"], form.wufoo .focused input[type="number"], form.wufoo .focused textarea, form.wufoo input.text {border-color:#4d4d4d;box-shadow:none;}  */
 
 form.wufoo input[type="radio"], form.wufoo label.choice, form.wufoo input.checkbox {display:inline-block;}
