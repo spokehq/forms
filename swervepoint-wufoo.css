@@ -4,7 +4,7 @@ form.wuffo, form.wufoo label, form.wufoo label p {
 	font:normal 14px/100% Arial, Helvetica, sans-serif;color:#4d4d4d;
 }
 .wufoo label.desc, .wufoo legend.desc {font-size:14px !important;font-weight:normal !important;}
-form.wufoo li {padding-left:0;padding-right:0;}
+form.wufoo li {padding-left:0;padding-right:0;width:100%;}
 form.wufoo li.focused {background-color:#fff;}
 form.wufoo label, form.wufoo li div, form.wufoo li div label, .form.wufoo li span label {font-size:13px;line-height:24px;color:#4d4d4d !important;margin:0 0;}
 
