@@ -19,6 +19,8 @@ form.wufoo input.medium, form.wufoo select.medium {width:100%;}
 
 form.wufoo input[type="radio"], form.wufoo label.choice, form.wufoo input.checkbox {display:inline-block;}
 
+form.wufoo input[type="radio"], form.wufoo input[type="checkbox"] {margin:4px 0 0px 1px;}
+
 form.wufoo li.notranslate {margin:0 0 18px;}
 form.wufoo select {
 /* 	padding: 10px 42px 10px 10px; */
