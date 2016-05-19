@@ -8,7 +8,7 @@ form.wufoo li {padding-left:0;padding-right:0;}
 form.wufoo li.focused {background-color:#fff;}
 form.wufoo label, form.wufoo li div, form.wufoo li div label, .form.wufoo li span label {font-size:13px;line-height:24px;color:#4d4d4d !important;margin:0 0;}
 
-form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[type="url"], form.wufoo input[type="tel"], form.wufoo input[type="search"], form.wufoo input[type="datetime-local"], form.wufoo input[type="datetime"], form.wufoo input[type="time"], form.wufoo input[type="week"], form.wufoo input[type="month"], form.wufoo input[type="range"], form.wufoo input[type="color"], form.wufoo input[type="date"], form.wufoo input[type="number"], form.wufoo textarea, form.wufoo input.text, form.wufoo select {
+form.wufoo input[type="text"], form.wufoo input[type="email"], form.wufoo input[type="url"], form.wufoo input[type="tel"], form.wufoo input[type="search"], form.wufoo input[type="datetime-local"], form.wufoo input[type="datetime"], form.wufoo input[type="time"], form.wufoo input[type="week"], form.wufoo input[type="month"], form.wufoo input[type="range"], form.wufoo input[type="color"], form.wufoo input[type="date"], form.wufoo input[type="number"], form.wufoo textarea, form.wufoo input.text, form.wufoo select, form.wufoo li.box {
 	border:2px solid #bbbbbb;background:#fff;
 	padding:9px 15px;border-radius: 4px;background-clip: padding-box;
 	font-size:14px;line-height:1.45;
